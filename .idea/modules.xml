@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" filepath="$PROJECT_DIR$/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/patika-beginner-java-backend-web-development.iml" filepath="$PROJECT_DIR$/.idea/patika-beginner-java-backend-web-development.iml" />
     </modules>
   </component>
