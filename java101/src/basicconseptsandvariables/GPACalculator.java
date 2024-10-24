@@ -10,32 +10,32 @@ public class GPACalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int mathematics;
-        int physics;
-        int chemistry;
-        int turkish;
-        int history;
-        int music;
-        double avg;
+        int mathGrade;
+        int physicGrade;
+        int chemistryGrade;
+        int turkishGrade;
+        int historyGrade;
+        int musicGrade;
+        double averageGrade;
         String pass;
 
         System.out.print("\nPlease Enter The Math Grade : ");
-        mathematics = input.nextInt();
+        mathGrade = input.nextInt();
         System.out.print("Please Enter The Physics Grade : ");
-        physics = input.nextInt();
+        physicGrade = input.nextInt();
         System.out.print("Please Enter The Chemistry Grade : ");
-        chemistry = input.nextInt();
+        chemistryGrade = input.nextInt();
         System.out.print("Please Enter The Turkish Grade : ");
-        turkish = input.nextInt();
+        turkishGrade = input.nextInt();
         System.out.print("Please Enter The History Grade : ");
-        history = input.nextInt();
+        historyGrade = input.nextInt();
         System.out.print("Please Enter The Music Grade : ");
-        music = input.nextInt();
+        musicGrade = input.nextInt();
 
-        avg = (double) (mathematics + physics + chemistry + turkish + history + music) / 6;
-        System.out.println("\nAverage : " + avg);
+        averageGrade = (double) (mathGrade + physicGrade + chemistryGrade + turkishGrade + historyGrade + musicGrade) / 6;
+        System.out.println("\nAverage : " + averageGrade);
 
-        pass = avg >= 60 ? "Congratulations! You Have Passed The Class." : "We're Sorry. You Have Failed The Class.";
+        pass = averageGrade >= 60 ? "Congratulations! You Have Passed The Class." : "We're Sorry. You Have Failed The Class.";
         System.out.println(pass);
 
     }
