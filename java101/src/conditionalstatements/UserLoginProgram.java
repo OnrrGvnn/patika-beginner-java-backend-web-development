@@ -37,7 +37,7 @@ public class UserLoginProgram {
                     if (password.equals("java123")) {
                         System.out.println("\nThe New Password Cannot Be The Same As The Previous One!");
                     } else {
-                        System.out.println("\nYour New Password Has Been Successfully Created!");
+                        System.out.println("\nYour New Password Has Been Successfully Created! : " + newPassword);
                     }
 
                     break;
@@ -49,5 +49,4 @@ public class UserLoginProgram {
         }
 
     }
-
 }
