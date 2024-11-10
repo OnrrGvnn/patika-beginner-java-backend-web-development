@@ -1,5 +1,5 @@
 /* We are creating a triangle pattern with stars using loops in Java. Create a diamond pattern with stars
-using loops in Java.*/
+using loops in Java. */
 
 package loops;
 
