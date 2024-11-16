@@ -5,6 +5,39 @@ package methods;
 import java.util.Scanner;
 
 public class PalindromeNumberChecker {
+    public static boolean isPalindrome(int number) {
+        int tempNumber;
+        int lastNumber;
+        int reverseNumber = 0;
+
+        tempNumber = number;
+
+        while (tempNumber != 0) {
+            lastNumber = tempNumber % 10;
+            reverseNumber = (reverseNumber * 10) + lastNumber;
+            tempNumber /= 10;
+        }
+
+        return number == reverseNumber;
+
+    }
+
+//        private static boolean isPalindrome(String number) {
+//
+//        for (int i = 0; i < number.length() / 2; i++) {
+//            char firstIndex = number.charAt(i);
+//            char lastIndex = number.charAt(number.length() - (i + 1));
+//
+//            if (firstIndex != lastIndex) {
+//                return false;
+//            }
+//
+//        }
+//
+//        return true;
+//
+//    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -30,40 +63,6 @@ public class PalindromeNumberChecker {
 //            System.out.println("\n" + number + " Is Not A Palindrome Number.");
 //        }
 
-
     }
-
-    public static boolean isPalindrome(int number) {
-        int tempNumber;
-        int lastNumber;
-        int reverseNumber = 0;
-
-        tempNumber = number;
-
-        while (tempNumber != 0) {
-            lastNumber = tempNumber % 10;
-            reverseNumber = (reverseNumber * 10) + lastNumber;
-            tempNumber /= 10;
-        }
-
-        return number == reverseNumber;
-
-    }
-
-//    private static boolean isPalindrome(String number) {
-//
-//        for (int i = 0; i < number.length() / 2; i++) {
-//            char firstIndex = number.charAt(i);
-//            char lastIndex = number.charAt(number.length() - (i + 1));
-//
-//            if (firstIndex != lastIndex) {
-//                return false;
-//            }
-//
-//        }
-//
-//        return true;
-//
-//    }
 
 }
