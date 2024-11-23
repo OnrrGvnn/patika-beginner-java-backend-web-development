@@ -18,7 +18,7 @@ public class Main {
         Student student2 = new Student("Efe", "2", 4, mathematics, physics, chemistry, music, history);
         Student student3 = new Student("Doğa", "3", 4, mathematics, physics, chemistry, music, history);
         Student student4 = new Student("Emre", "4", 4, mathematics, physics, chemistry, music, history);
-        Student student5 = new Student("Oğuz", "4", 4, mathematics, physics, chemistry, music, history);
+        Student student5 = new Student("Oğuz", "5", 4, mathematics, physics, chemistry, music, history);
 
         System.out.println("--------------------------------------------------------------------");
 
