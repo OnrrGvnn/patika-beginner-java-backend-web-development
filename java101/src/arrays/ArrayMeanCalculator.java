@@ -5,26 +5,26 @@ package arrays;
 
 public class ArrayMeanCalculator {
     public static void main(String[] args) {
-        /* int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        /* int[] list = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int sum = 0;
         double average;
 
-        for (int i : numbers) {
-            sum += i;
+        for (int number : list) {
+            sum += number;
         }
 
-        average = (double) sum / numbers.length;
-        System.out.println("\nAverage : " + average);*/
+        average = (double) sum / list.length;
+        System.out.println("\nAverage : " + average); */
 
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] list = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         double sum = 0;
         double harmonicMean;
 
-        for (double i : numbers) {
-            sum += 1 / i;
+        for (int number : list) {
+            sum += 1.0 / number;
         }
 
-        harmonicMean = sum / numbers.length;
+        harmonicMean = sum / list.length;
         System.out.println("\nHarmonic Mean : " + harmonicMean);
 
     }
