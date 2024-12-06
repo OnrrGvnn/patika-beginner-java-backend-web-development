@@ -17,13 +17,13 @@ public class ArrayClosestAndExtremeFinder {
         min = list[0];
         max = list[0];
 
-        for (int i : list) {
-            if (i < min) {
-                min = i;
+        for (int number : list) {
+            if (number < min) {
+                min = number;
             }
 
-            if (i > max) {
-                max = i;
+            if (number > max) {
+                max = number;
             }
 
         }
