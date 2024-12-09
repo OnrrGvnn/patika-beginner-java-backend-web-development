@@ -1,4 +1,4 @@
-/* Write a program in Java that determines how many times each element in an array is repeated, i.e., finds
+/* Write a program in Java that determines how many times each element in an array is repeated, i.e , finds
 their frequencies. */
 
 package arrays;
